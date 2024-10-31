@@ -16,19 +16,31 @@
         </div>
         <div class="form-wrapper">
             <p>Let's do this!</p>
-            <form method="POST">
-                <label for="first-name">FIRST NAME </label>
-                <input type="text" id="first-name" name="first-name">
-                <label for="">LAST NAME</label>
-                <input type="text" id="last-name" name="last-name">
-                <label for="user-email">EMAIL</label>
-                <input type="text" id="user-email" name="user-email">
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="text" id="phone-number" name="phone-number">
-                <label for="user-password">PASSWORD</label>
-                <input type="text" id="user-password" name="user-password">
-                <label for="password-confirmation">CONFIRM PASSWORD</label>
-                <input type="text" id="password-confirmation" name="password-confirmation">
+            <form action ="#" method="POST">
+                <div>
+                    <label for="first-name">FIRST NAME </label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>    
+                <div>
+                    <label for="">LAST NAME</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+                <div>
+                    <label for="user-email">EMAIL</label>
+                    <input type="email" id="user-email" name="user-email" required>
+                </div>
+                <div>
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="text" id="phone-number" name="phone-number">
+                </div>
+                <div>
+                    <label for="user-password">PASSWORD</label>
+                    <input type="password" id="user-password" name="user-password" required>
+                </div>
+                <div>
+                    <label for="password-confirmation">CONFIRM PASSWORD</label>
+                    <input type="password" id="password-confirmation" name="password-confirmation">
+                </div>
                 <button type="submit">Create Account</button>
                 <p>Already have an account? Log in</p>
             </form>
