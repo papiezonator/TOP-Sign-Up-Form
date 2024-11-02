@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     display: flex;
 }
@@ -24,4 +29,24 @@ input:focus {
     outline: blue;
     border-color: blue;
     box-shadow: 0 2px 2px 0 rgba(87, 86, 86, 0.2), 0 2px 2px 0 rgba(87, 86, 86, 0.2);
+}
+
+#submit-button {
+    width: 22vh;
+    height: 5vh;
+    border-radius: 4px;
+    border: 1.5px solid #596D48;
+    background-color: #596D48;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;  
+}
+
+.right-side {
+    background-color: rgb(236, 235, 235)
+}
+
+.form-wrapper {
+    height: 50vh;
+    background-color: white;
 }
