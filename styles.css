@@ -78,6 +78,8 @@ input:focus {
 .form-wrapper {
     height: 30vh;
     background-color: white;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+
 }
 
 .italic {
@@ -147,22 +149,37 @@ input:focus {
 
 }
 
+.input-wrapper > form > div > label{
+    font-size: 0.8rem;
+    
+}
+
 .input-wrapper > form > div > input {
     width: 28vh;
     height: 2.7vh;
     margin-right: 8vh;
+    margin-left: 0vh;
+    padding-left: 10px;
+    font-size: 0.925rem;
+    
 }
 
 .input-wrapper > form {
     display: flex;
     flex-wrap: wrap;
     width: 80vh;
+    
 }
 
 .submit-wrapper {
     margin-top: 4vh;
 }
 
+.submit-wrapper > button {
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
 .submit-wrapper > p {
     margin-top: 3vh;
 }
+
