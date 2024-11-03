@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/norse');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 *{
     margin: 0px;
@@ -29,7 +30,6 @@ html {
 }
 
 .footer {
-    
     color: white;
     margin-bottom: 2vh;
 }
@@ -42,7 +42,9 @@ html {
     display: flex;
     flex-grow: 1;
     flex-direction: column; 
-    background-color: rgb(236, 235, 235);
+    background-color: rgb(245, 245, 245);
+    font-family: 'Poppins';
+    letter-spacing: 0.1rem;
 }
 
 input {
@@ -74,7 +76,7 @@ input:focus {
 
 
 .form-wrapper {
-    height: 50vh;
+    height: 30vh;
     background-color: white;
 }
 
@@ -111,3 +113,30 @@ input:focus {
     font-weight: bold;
 }
 
+.submit-wrapper > p > a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-headline, .input-wrapper, .text-wrapper, .submit-wrapper {
+    margin-left: 5vh;
+}
+
+.text-wrapper {
+    margin-top: 15vh;
+    width: calc(100% - 25vh);
+}
+
+.top-text {
+    margin-bottom: 3vh;
+}
+
+.bottom-text {
+    margin-bottom: 7vh;
+}
+
+.form-headline {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
