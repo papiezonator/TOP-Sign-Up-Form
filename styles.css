@@ -17,11 +17,23 @@ html {
 
 .left-side {
     display: flex;
+    flex-direction: column;
     width: 70vh;
     background-image: url("background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.footer {
     
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.footer > a {
+    color: white;
 }
 
 .right-side {
@@ -74,7 +86,7 @@ input:focus {
     
     
     height: 20vh;
-    margin-top: 10vh;
+    margin-top: 20vh;
     background-color: rgb(0,0,0, 0.4);
     width: 100%;
 }
