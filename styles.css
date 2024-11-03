@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/norse');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -33,7 +35,7 @@ html {
 }
 
 .footer > a {
-    color: white;
+    color: white;   
 }
 
 .right-side {
@@ -82,21 +84,30 @@ input:focus {
 
 
 
-.logo {
-    
-    
+.logo-wrapper {
     height: 20vh;
     margin-top: 20vh;
     background-color: rgb(0,0,0, 0.4);
     width: 100%;
 }
 
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .logo > img {
-    height: calc(100% - 5vh);
+    height: calc(20vh - 5vh);
     
 }
 
 .logo > span {
+    font-family: 'Norse', sans-serif;
     color: white;
+    font-size: 7rem;
+    font-weight: bold;
 }
 
