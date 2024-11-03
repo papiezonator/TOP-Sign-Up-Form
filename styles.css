@@ -176,7 +176,7 @@ input:focus {
 }
 
 .submit-wrapper > button {
-    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .submit-wrapper > p {
