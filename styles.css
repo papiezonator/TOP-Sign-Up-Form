@@ -21,7 +21,7 @@ html {
 .left-side {
     display: flex;
     flex-direction: column;
-    width: 70vh;
+    width: 90vh;
     background-image: url("background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -139,4 +139,30 @@ input:focus {
 .form-headline {
     margin-top: 2vh;
     margin-bottom: 2vh;
+}
+
+.input-wrapper > form > div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-wrapper > form > div > input {
+    width: 28vh;
+    height: 2.7vh;
+    margin-right: 8vh;
+}
+
+.input-wrapper > form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vh;
+}
+
+.submit-wrapper {
+    margin-top: 4vh;
+}
+
+.submit-wrapper > p {
+    margin-top: 3vh;
 }
