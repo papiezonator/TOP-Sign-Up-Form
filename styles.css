@@ -59,7 +59,7 @@ input {
 input:focus {
     outline: blue;
     border-color: blue;
-    box-shadow: 0 2px 2px 0 rgba(87, 86, 86, 0.2), 0 2px 2px 0 rgba(87, 86, 86, 0.2);
+    box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.3);
 }
 
 #submit-button {
